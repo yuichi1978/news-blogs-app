@@ -223,6 +223,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .submission-message {
+    font-size: clamp(5rem, 3.5cqi, 6rem);
+  }
+}
+
 @media (max-width: 500px) {
   .blogs-left img {
     width: 10rem;
@@ -231,6 +237,10 @@
   .title-input,
   .text-input {
     width: 30rem;
+  }
+
+  .submission-message {
+    font-size: clamp(3rem, 2.8cqi, 4rem);
   }
 }
 
